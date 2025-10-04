@@ -1,0 +1,62 @@
+[
+    {
+        "id": "bus_1_001",
+        "line": "line1",
+        "number": "Ligne 1",
+        "route": "Plateau - Yoff",
+        "current_stop": "Plateau",
+        "next_stop": "Place de l'Ind\u00e9pendance",
+        "position": {
+            "lat": 14.6642,
+            "lng": -17.4311
+        },
+        "speed": "25 km\/h",
+        "passengers": 45,
+        "capacity": 60,
+        "status": "on_time",
+        "delay": "0 min",
+        "last_update": "14:48:47",
+        "direction": "aller",
+        "arrival_time": "14:32"
+    },
+    {
+        "id": "bus_2_001",
+        "line": "line2",
+        "number": "Ligne 2",
+        "route": "Gare Routi\u00e8re - Ouakam",
+        "current_stop": "Gare Routi\u00e8re",
+        "next_stop": "Castors",
+        "position": {
+            "lat": 14.6833,
+            "lng": -17.45
+        },
+        "speed": "20 km\/h",
+        "passengers": 32,
+        "capacity": 60,
+        "status": "delayed",
+        "delay": "8 min",
+        "last_update": "14:48:47",
+        "direction": "aller",
+        "arrival_time": "14:35"
+    },
+    {
+        "id": "bus_3_001",
+        "line": "line3",
+        "number": "Ligne 3",
+        "route": "Colobane - Parcelles Assainies",
+        "current_stop": "Colobane",
+        "next_stop": "Grand Yoff",
+        "position": {
+            "lat": 14.6931,
+            "lng": -17.4639
+        },
+        "speed": "28 km\/h",
+        "passengers": 28,
+        "capacity": 60,
+        "status": "on_time",
+        "delay": "0 min",
+        "last_update": "14:48:47",
+        "direction": "aller",
+        "arrival_time": "14:38"
+    }
+]

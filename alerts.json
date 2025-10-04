@@ -1,0 +1,20 @@
+[
+    {
+        "id": "alert_1",
+        "title": "Embouteillages denses",
+        "message": "Bouchons importants sur la Corniche Ouest vers le centre-ville",
+        "location": "Centre-ville Plateau",
+        "delay": "+15-25 min",
+        "level": "high",
+        "created_at": "2025-10-04 14:48:47"
+    },
+    {
+        "id": "alert_2",
+        "title": "Accident signal\u00e9",
+        "message": "Accident mineur rue Sandinieri, circulation ralentie",
+        "location": "Rue Sandinieri",
+        "delay": "+5-10 min",
+        "level": "medium",
+        "created_at": "2025-10-04 14:48:47"
+    }
+]

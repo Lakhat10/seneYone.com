@@ -1,0 +1,42 @@
+[
+    {
+        "id": "unknown_1",
+        "number": "Ligne Express A",
+        "name": "Dakar Nord Express",
+        "color": "#FF6B6B",
+        "stops": [
+            "Parcelles Assainies",
+            "Grand Yoff",
+            "Plateau"
+        ],
+        "schedule": [
+            "07:00-09:00",
+            "16:00-19:00"
+        ],
+        "frequency": "20-25 min",
+        "price": "400 FCFA",
+        "duration": "30 min",
+        "active": true,
+        "type": "express"
+    },
+    {
+        "id": "unknown_2",
+        "number": "Ligne Nuit 1",
+        "name": "Service Nocturne Centre",
+        "color": "#4ECDC4",
+        "stops": [
+            "Plateau",
+            "Fann",
+            "Mermoz",
+            "Ouakam"
+        ],
+        "schedule": [
+            "22:00-02:00"
+        ],
+        "frequency": "30-40 min",
+        "price": "500 FCFA",
+        "duration": "35 min",
+        "active": true,
+        "type": "nocturne"
+    }
+]
