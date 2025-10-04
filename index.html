@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Projet</title>
+    <script>
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                const usersList = document.getElementById('users');
+                data.utilisateurs.forEach(user => {
+                    const li = document.createElement('li');
+                    li.textContent = `${user.nom} - Age: ${user.age}`;
+                    usersList.appendChild(li);
+                });
+            })
+            .catch(error => console.error('Erreur:', error));
+    </script>
+</head>
+<body>
+    <h1>Liste des Utilisateurs</h1>
+    <ul id="users"></ul>
+</body>
+</html>
